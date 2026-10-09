@@ -53,7 +53,7 @@ Edit companies in `data/portfolio.json`:
 }
 ```
 
-- Current companies sort by `order`. Exited companies come after them.
+- Companies show in alphabetical order by `name`.
 - Filter pills are built from `industries`, so a new industry gets its own pill automatically.
 - Use `null` for `logo` / `logoHover` when there is no logo.
 

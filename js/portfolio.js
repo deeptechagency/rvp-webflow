@@ -123,8 +123,7 @@
       if (self.destroyed) return;
       var items = (data.companies || data.items || data || []).slice();
       items.sort(function (a, b) {
-        if (!!a.exited !== !!b.exited) return a.exited ? 1 : -1;
-        return (a.order || 0) - (b.order || 0) || String(a.name).localeCompare(b.name);
+        return String(a.name).localeCompare(String(b.name), undefined, { sensitivity: 'base', numeric: true });
       });
       self.items = items;
       self.readUrl();
@@ -397,7 +396,7 @@
     });
   }
 
-  window.RVPPortfolio = { init: init, version: '1.0.1' };
+  window.RVPPortfolio = { init: init, version: '1.0.2' };
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
