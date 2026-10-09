@@ -56,6 +56,8 @@ Edit companies in `data/portfolio.json`:
 - Companies show in alphabetical order by `name`.
 - Filter pills are built from `industries`, so a new industry gets its own pill automatically.
 - Use `null` for `logo` / `logoHover` when there is no logo.
+- After replacing logo files, bump `assetsVersion` at the top of `data/portfolio.json` so browsers load the new images.
+- Logos are 128px tall PNGs (shown at 64px) with the mono and colour versions at identical sizes.
 
 Optional attributes on the `cms_list` element: `data-cms-page-size` (default 9, `0` shows all), `data-cms-animate="false"`, `data-cms-hover="false"`.
 Optional on `filter-list`: `data-cms-all-label`, `data-cms-exited-label` (adds an Exited pill).

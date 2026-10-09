@@ -51,6 +51,10 @@
     return String(s).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
 
+  function withV(url, v) {
+    return v && url ? url + (url.indexOf('?') < 0 ? '?' : '&') + 'v=' + encodeURIComponent(v) : url;
+  }
+
   function abs(base, path) {
     if (!path) return '';
     return /^https?:\/\//.test(path) ? path : base.replace(/\/?$/, '/') + path.replace(/^\//, '');
@@ -125,6 +129,7 @@
       items.sort(function (a, b) {
         return String(a.name).localeCompare(String(b.name), undefined, { sensitivity: 'base', numeric: true });
       });
+      self.assetVersion = data.assetsVersion || '';
       self.items = items;
       self.readUrl();
       self.buildFilters();
@@ -270,7 +275,7 @@
       img.alt = '';
     });
     if (it.logo && logo) {
-      logo.src = abs(assets, it.logo);
+      logo.src = withV(abs(assets, it.logo), this.assetVersion);
       logo.alt = it.name + ' logo';
       logo.loading = 'lazy';
       logo.decoding = 'async';
@@ -280,7 +285,7 @@
     }
     if (hover) {
       if (it.logo && it.logoHover) {
-        hover.src = abs(assets, it.logoHover);
+        hover.src = withV(abs(assets, it.logoHover), this.assetVersion);
         hover.setAttribute('aria-hidden', 'true');
         hover.loading = 'lazy';
         hover.decoding = 'async';
@@ -396,7 +401,7 @@
     });
   }
 
-  window.RVPPortfolio = { init: init, version: '1.0.2' };
+  window.RVPPortfolio = { init: init, version: '1.0.3' };
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
