@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "assetsVersion": "3",
+  "assetsVersion": "4",
   "companies": [
     {
       "name": "AmberSemi",
@@ -483,24 +483,6 @@
       ],
       "logo": "assets/portfolio/logos/chinova-bioworks.png",
       "logoHover": "assets/portfolio/logos/chinova-bioworks-color.png"
-    },
-    {
-      "name": "Magnolia Medical",
-      "slug": "magnolia-medical",
-      "industries": [
-        "Medtech"
-      ],
-      "exited": false,
-      "featured": false,
-      "order": 28,
-      "url": "https://magnolia-medical.com/",
-      "description": "Eliminating blood culture contamination with US hospitals to set a safer national benchmark.",
-      "about": [
-        "Zero false positives. Zero patients harmed.",
-        "Magnolia Medical is partnering with US hospitals and healthcare workers in their mission to eliminate the preventable error of blood culture contamination and together set a new, and safer, national benchmark for blood culture contamination."
-      ],
-      "logo": null,
-      "logoHover": null
     },
     {
       "name": "Apeel Sciences",
