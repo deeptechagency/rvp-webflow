@@ -226,11 +226,14 @@
     var gsap = window.gsap;
     this.view = this.items.filter(this.matches, this);
     this.shown = 0;
+    var gen = this.gen = (this.gen || 0) + 1;
 
     var old = [].slice.call(this.list.querySelectorAll(SEL('cms_item')));
+    var done = false;
     var swap = function () {
-      if (self.destroyed) return;
-      old.forEach(function (c) { c.remove(); });
+      if (done || self.destroyed || gen !== self.gen) return;
+      done = true;
+      [].slice.call(self.list.querySelectorAll(SEL('cms_item'))).forEach(function (c) { c.remove(); });
       self.more(animated);
     };
 
@@ -238,6 +241,7 @@
       this.list.style.minHeight = this.list.offsetHeight + 'px';
       gsap.killTweensOf(old);
       gsap.to(old, { opacity: 0, y: '-0.5rem', duration: 0.22, ease: 'power1.in', onComplete: swap });
+      setTimeout(swap, 400); // fallback if the animation is paused (background tab)
     } else {
       swap();
     }
@@ -393,7 +397,7 @@
     });
   }
 
-  window.RVPPortfolio = { init: init, version: '1.0.0' };
+  window.RVPPortfolio = { init: init, version: '1.0.1' };
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
