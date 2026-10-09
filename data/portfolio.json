@@ -1,0 +1,592 @@
+{
+  "version": 1,
+  "companies": [
+    {
+      "name": "AmberSemi",
+      "slug": "ambersemi",
+      "industries": [
+        "Semiconductor"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 1,
+      "url": "https://ambersi.com/",
+      "description": "Fabless semiconductor company pioneering next-generation power management for AI data centers.",
+      "about": [
+        "AmberSemi is a fabless semiconductor company pioneering the next generation of power management for data centers. Its first product is AmberSemi PowerTile™, a vertical power delivery solution designed specifically for AI processors in data centers."
+      ],
+      "logo": "assets/portfolio/logos/ambersemi.png",
+      "logoHover": "assets/portfolio/logos/ambersemi-color.png"
+    },
+    {
+      "name": "Light Trace Photonics",
+      "slug": "light-trace-photonics",
+      "industries": [
+        "Photonics"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 2,
+      "url": "https://www.ltphotonics.co.uk/",
+      "description": "Detachable fiber connectors for photonic chips that cut packaging cost and complexity for AI data centers.",
+      "about": [
+        "Light Trace Photonics builds attachable fiber connectors for photonic chips, enabling next-generation optical communications hardware. Its LightBridge product replaces permanent, expensive fiber connections with a more flexible, detachable approach. This reduces packaging costs and complexity while improving reliability for AI data centers and other high-speed computing systems."
+      ],
+      "logo": "assets/portfolio/logos/light-trace-photonics.png",
+      "logoHover": "assets/portfolio/logos/light-trace-photonics-color.png"
+    },
+    {
+      "name": "Nuclear Turbines",
+      "slug": "nuclear-turbines",
+      "industries": [
+        "Energy"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 3,
+      "url": "https://www.nuclearturbines.com/",
+      "description": "An air-cooled nuclear reactor that directly powers off-the-shelf gas turbines, spun out of BAE Systems.",
+      "about": [
+        "Nuclear Turbines is delivering the lowest cost nuclear generation on Earth. Spun-out from BAE Systems, the company makes the only air-cooled nuclear reactor capable of directly powering off-the-shelf gas turbines."
+      ],
+      "logo": "assets/portfolio/logos/nuclear-turbines.png",
+      "logoHover": "assets/portfolio/logos/nuclear-turbines-color.png"
+    },
+    {
+      "name": "Relativity Networks",
+      "slug": "relativity-networks",
+      "industries": [
+        "Photonics"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 4,
+      "url": "https://relativitynetworks.ai/",
+      "description": "Hollow core optical fibers that unlock critical bottlenecks in data center infrastructure.",
+      "about": [
+        "Relativity Networks produces Hollow Core Optical Fibers (HCF). Light travels faster through air than through glass. HCF unlock critical bottlenecks in data center infrastructure."
+      ],
+      "logo": "assets/portfolio/logos/relativity-networks.png",
+      "logoHover": "assets/portfolio/logos/relativity-networks-color.png"
+    },
+    {
+      "name": "SpinDrive",
+      "slug": "spindrive",
+      "industries": [
+        "Industrial Tech"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 5,
+      "url": "https://spindrive.fi/",
+      "description": "Control systems for frictionless active magnetic bearings that cut energy use and operating costs.",
+      "about": [
+        "SpinDrive is selling advanced active magnetic bearing (AMBs) control systems. AMBs are frictionless bearings that create energy and opex savings. SpinDrive's systems improve existing products and, being smaller and cheaper, enable completely new use cases for AMBs."
+      ],
+      "logo": "assets/portfolio/logos/spindrive.png",
+      "logoHover": "assets/portfolio/logos/spindrive-color.png"
+    },
+    {
+      "name": "VioNano",
+      "slug": "vionano",
+      "industries": [
+        "Semiconductor"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 6,
+      "url": "https://www.vionano.com/",
+      "description": "Advanced lithography materials that enable smaller, more precise chip features on existing equipment.",
+      "about": [
+        "VioNano develops advanced materials for semiconductor manufacturing that enable smaller, more precise chip features without requiring costly new equipment. Its technology improves pattern quality and extends the capabilities of existing lithography tools, helping chipmakers achieve next-generation performance more efficiently.",
+        "By reducing manufacturing complexity and cost, VioNano helps address key bottlenecks in scaling semiconductors for AI and advanced computing."
+      ],
+      "logo": "assets/portfolio/logos/vionano.png",
+      "logoHover": "assets/portfolio/logos/vionano-color.png"
+    },
+    {
+      "name": "Cnergreen",
+      "slug": "cnergreen",
+      "industries": [
+        "Oil & Gas",
+        "Chemicals"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 7,
+      "url": "https://cnergreen.ca/",
+      "description": "ArmorFoam™ keeps underground foams stable for months, improving CO2 enhanced oil recovery and sequestration.",
+      "about": [
+        "Cnergreen’s patent-pending ArmorFoam™ technology, developed at the University of Calgary, enables underground foams to remain stable for months at high pressures, temperatures, and salinities. The first application is improving CO2 enhanced oil recovery (CO2 EOR) in the oil and gas industry.",
+        "For years, oilfield operators have seen an opportunity to use CO2 injection as a way to enhance oil recovery in active wells, while also permanently sequestering CO2 in geologic reservoirs. Because of the large volumes of CO2 required, CO2-EOR provides a near-term pathway for scaled carbon sequestration, while lowering the carbon footprint of produced oil.",
+        "However, injected gas often channels through fractures and highly permeable zones and results in early gas production and inefficient sweep. With ArmorFoam™, these channels are blocked, forcing CO2 to permeate all available space in reservoirs."
+      ],
+      "logo": "assets/portfolio/logos/cnergreen.png",
+      "logoHover": "assets/portfolio/logos/cnergreen-color.png"
+    },
+    {
+      "name": "pH7",
+      "slug": "ph7",
+      "industries": [
+        "Critical Minerals"
+      ],
+      "exited": false,
+      "featured": false,
+      "order": 8,
+      "url": "https://ph7technologies.ca/",
+      "description": "Sustainable extraction and refining of the strategic metals essential to the renewable energy transition.",
+      "about": [
+        "Ph7 designs and implements methodologies for sustainable extraction and refining of strategic metals, essential for the transition to renewable energy."
+      ],
+      "logo": "assets/portfolio/logos/ph7.png",
+      "logoHover": "assets/portfolio/logos/ph7-color.png"
+    },
+    {
+      "name": "Wavelogix",
+      "slug": "wavelogix",
+      "industries": [
+        "Built Environment",
+        "Industrial Tech"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 9,
+      "url": "https://wavelogix.tech/",
+      "description": "IoT sensors that give real-time, in-place concrete strength measurements for construction teams.",
+      "about": [
+        "Wavelogix is on a mission to transform safety and quality assurance for the construction industry. A spinout of Dr. Luna Lu’s research group at Purdue University, Wavelogix has developed a patented IoT sensor and data analytics platform for infrastructure quality testing.",
+        "Their award-winning REBEL™ sensing technology is the only sensor that provides real-time measurements of in-place concrete strength, allowing construction engineers to make accurate, data-driven decisions about materials selection, scheduling, budgets, and resource allocation."
+      ],
+      "logo": "assets/portfolio/logos/wavelogix.png",
+      "logoHover": "assets/portfolio/logos/wavelogix-color.png"
+    },
+    {
+      "name": "NuCicer",
+      "slug": "nucicer",
+      "industries": [
+        "Agtech"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 10,
+      "url": "https://www.nucicer.com/",
+      "description": "Non-GMO breeding and machine learning platform creating higher-protein, better-tasting chickpea varieties.",
+      "about": [
+        "NuCicer owns the largest chickpea library in the world, and has developed a non-GMO breeding and machine learning platform to quickly breed new varieties. NuCicer is breeding proprietary chickpea varieties with increased protein content, superior flavor, improved crop resilience, and reduced production costs for farmers."
+      ],
+      "logo": "assets/portfolio/logos/nucicer.png",
+      "logoHover": "assets/portfolio/logos/nucicer-color.png"
+    },
+    {
+      "name": "Netpreme",
+      "slug": "netpreme",
+      "industries": [
+        "Semiconductor"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 11,
+      "url": "https://netpreme.com/",
+      "description": "Memory-compute interconnect for xPUs that speeds up AI inference and cuts GPU costs at scale.",
+      "about": [
+        "Netpreme is solving the critical memory bottleneck in generative AI infrastructures. Netpreme’s novel memory-compute interconnection for xPUs promises to dramatically enhance the compute- and power-efficiency of AI inference via standard hardware interfaces, delivering significant inference speed-ups and substantial GPU cost savings at scale."
+      ],
+      "logo": "assets/portfolio/logos/netpreme.png",
+      "logoHover": "assets/portfolio/logos/netpreme-color.png"
+    },
+    {
+      "name": "Titan Haptics",
+      "slug": "titan-haptics",
+      "industries": [
+        "Electronics"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 12,
+      "url": "https://titanhaptics.com/",
+      "description": "Linear Magnetic Rams that use solid-state magnetic suspension for stronger, more reliable haptics.",
+      "about": [
+        "Titan's Linear Magnetic Rams (LMRs) are a breakthrough in haptics. Utilizing solid-state magnetic suspension instead of springs or flexures, Titan delivers broader frequency, strength and reliability of haptic outputs."
+      ],
+      "logo": "assets/portfolio/logos/titan-haptics.png",
+      "logoHover": "assets/portfolio/logos/titan-haptics-color.png"
+    },
+    {
+      "name": "GPR",
+      "slug": "gpr",
+      "industries": [
+        "Automation"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 13,
+      "url": "https://gpr.com/",
+      "description": "Ground Positioning Radar™ that maps the subsurface for precise vehicle positioning in any conditions.",
+      "about": [
+        "GPR became part of BTG Positioning Systems in 2025. GPR’s ultra-wide band Ground Positioning Radar™ uses reflections of the underground to generate high-definition maps.",
+        "When a vehicle is in motion, GPR tracks and matches a real-time radar scan with the subsurface map. This enables precise vehicle positioning regardless of poor weather or visibility, faint road markings, or other common challenges facing advanced driver-assistance systems."
+      ],
+      "logo": "assets/portfolio/logos/gpr.png",
+      "logoHover": "assets/portfolio/logos/gpr-color.png"
+    },
+    {
+      "name": "Manus Bio",
+      "slug": "manus-bio",
+      "industries": [
+        "Biomanufacturing"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 14,
+      "url": "http://www.manusbio.com/",
+      "description": "Biomanufacturing platform from MIT producing high-value natural ingredients for flavors, fragrances and sweeteners.",
+      "about": [
+        "Manus Bio was founded in 2011 with the mission of developing an economical and sustainable biomanufacturing platform, particularly for accessing rare and complex natural ingredients. Using a patented technology platform originally developed at MIT, Manus Bio produces high-value ingredients for the flavor, fragrance and sweetener industries, among others.",
+        "Through its 2018 acquisition of Nutrasweet assets, Manus Bio produces its products at scale in Augusta, Georgia."
+      ],
+      "logo": "assets/portfolio/logos/manus-bio.png",
+      "logoHover": "assets/portfolio/logos/manus-bio-color.png"
+    },
+    {
+      "name": "Lasso",
+      "slug": "lasso",
+      "industries": [
+        "Foodtech"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 15,
+      "url": "https://lassolabs.com/",
+      "description": "Harvard Wyss spinout using a patented process to create food fibers with better nutrition, taste and chew.",
+      "about": [
+        "Spun out of Harvard's Wyss Institute in 2020, Lasso is creating groundbreaking foods that utilize a new and patented production method to create fibers with better nutrition, clean labels and great taste and chew.",
+        "Rhapsody was the lead investor in 2020 and has led the subsequent rounds."
+      ],
+      "logo": "assets/portfolio/logos/lasso.png",
+      "logoHover": "assets/portfolio/logos/lasso-color.png"
+    },
+    {
+      "name": "NODAR",
+      "slug": "nodar",
+      "industries": [
+        "Automation"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 16,
+      "url": "https://www.nodarsensor.com/",
+      "description": "Untethered camera systems that deliver long-range, high-definition 3D depth maps for safe autonomy.",
+      "about": [
+        "NODAR is re-envisioning safety for autonomous transportation by leveraging untethered cameras to provide high-definition 3D depth maps at long range. This novel approach to perception is making safe autonomy available to the mass market.",
+        "Dr. Leaf Jiang founded NODAR in 2018 based on his 20+ years of experience building optoelectronic systems at MIT and MIT Lincoln Lab."
+      ],
+      "logo": "assets/portfolio/logos/nodar.png",
+      "logoHover": "assets/portfolio/logos/nodar-color.png"
+    },
+    {
+      "name": "Tendo Technologies",
+      "slug": "tendo-technologies",
+      "industries": [
+        "Industrial Tech"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 17,
+      "url": "http://www.tendo.tech/",
+      "description": "Low-cost, compact flow sensors based on elastic filament velocimetry, spun out of Princeton.",
+      "about": [
+        "Tendo Technologies has developed a novel class of flow sensors based on elastic filament velocimetry. Tendo's unique combination of low price, excellent performance and small form factor enables the use of flow meters in applications which aren't feasible today.",
+        "Tendo Technologies spun out of Professor Marcus Hultmark’s research group at Princeton University in 2017."
+      ],
+      "logo": "assets/portfolio/logos/tendo-technologies.png",
+      "logoHover": "assets/portfolio/logos/tendo-technologies-color.png"
+    },
+    {
+      "name": "ChEmpower",
+      "slug": "chempower",
+      "industries": [
+        "Semiconductor"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 18,
+      "url": "https://www.chempower-corp.com/",
+      "description": "Abrasive-free planarization that reduces defects and solves a key semiconductor manufacturing bottleneck.",
+      "about": [
+        "ChEmpower delivers abrasive-free planarization for the semiconductor industry to solve a key manufacturing bottleneck. Their solution reduces surface defects and improves etch rates to enable critical technologies like advanced process nodes, substrates, and hybrid bonding."
+      ],
+      "logo": "assets/portfolio/logos/chempower.png",
+      "logoHover": "assets/portfolio/logos/chempower-color.png"
+    },
+    {
+      "name": "Polaris Electro-Optics",
+      "slug": "polaris",
+      "industries": [
+        "Photonics"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 19,
+      "url": "https://polariseo.com/",
+      "description": "Novel liquid crystals for the fastest, most energy-efficient integrated photonic devices.",
+      "about": [
+        "Novel liquid crystals that enable the highest speed, most energy efficient integrated photonic devices unblocking data transfer bottlenecks."
+      ],
+      "logo": "assets/portfolio/logos/polaris.png",
+      "logoHover": "assets/portfolio/logos/polaris-color.png"
+    },
+    {
+      "name": "Latys",
+      "slug": "latys",
+      "industries": [
+        "Electronics"
+      ],
+      "exited": false,
+      "featured": false,
+      "order": 20,
+      "url": "https://www.latys.ca/",
+      "description": "Reconfigurable metasurface relays enabling full-duplex wireless with more bandwidth and less interference.",
+      "about": [
+        "Building on groundbreaking research in reconfigurable metasurfaces, Latys is commercializing the world’s first non-reciprocal wireless relay system that disrupts the current rules of antenna design.",
+        "LATYS’ proprietary technology provides for full-duplex WiFi and cellular transmissions that are protocol agnostic, resulting in an intelligent network with greater bandwidth and lower interference than previously possible."
+      ],
+      "logo": "assets/portfolio/logos/latys.png",
+      "logoHover": "assets/portfolio/logos/latys-color.png"
+    },
+    {
+      "name": "Sensatek",
+      "slug": "sensatek",
+      "industries": [
+        "Industrial Tech"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 21,
+      "url": "http://sensatek.com",
+      "description": "Wireless, high-temperature gas turbine sensors for energy, aviation and aerospace customers.",
+      "about": [
+        "As a US Marine, Reamonn Soto saw firsthand how measurement limitations affect aircraft engine performance and maintenance. He founded Sensatek to commercialize inventions from UCF that can measure temperature, pressure and strain in harsh environments.",
+        "Today, Sensatek develops and manufactures wireless, high-temperature, gas turbine sensors for customers in several industries including Energy, Aviation, and Aerospace."
+      ],
+      "logo": "assets/portfolio/logos/sensatek.png",
+      "logoHover": "assets/portfolio/logos/sensatek-color.png"
+    },
+    {
+      "name": "Holiferm",
+      "slug": "holiferm",
+      "industries": [
+        "Biomanufacturing",
+        "Chemicals"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 22,
+      "url": "https://holiferm.com/",
+      "description": "Improved fermentation processes that make renewable chemicals like biosurfactants far more economical.",
+      "about": [
+        "Holiferm develops holistically improved fermentation processes to deliver massive economic improvements for renewable chemicals. Their first product line of biosurfactants is used in consumer cleaning products in the UK, and their first global scale plant is under construction now."
+      ],
+      "logo": "assets/portfolio/logos/holiferm.png",
+      "logoHover": "assets/portfolio/logos/holiferm-color.png"
+    },
+    {
+      "name": "Fluid Efficiency",
+      "slug": "fluid-efficiency",
+      "industries": [
+        "Oil & Gas",
+        "Chemicals"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 23,
+      "url": "https://fluidefficiency.com/",
+      "description": "Self-repairing supramolecules that improve pipeline flow with a single injection, cutting operating costs.",
+      "about": [
+        "Founded at Caltech in 2017, Fluid Efficiency is revolutionizing efficiency, safety, and sustainability in the fluid transport and lubrication industries.",
+        "Their MSM-based Single Injection Flow Improver dramatically transforms liquid pipeline operations, delivering exceptional operational simplicity and cost efficiency. Existing pipeline flow improvers are ultra high molecular weight polymers that break in pumps, and must be re-injected after each pump to continue working. MSMs™ are self-repairing high molecular weight supramolecules, and thus only need to be added once.",
+        "Using MSMs™ as flow enhancers reduces costs by enabling pipelines to operate with far fewer re-injection points and significantly lower cumulative volumes of material without any compromise in flow rates. MSMs™ allow pipelines to drastically reduce operating cost without affecting operations."
+      ],
+      "logo": "assets/portfolio/logos/fluid-efficiency.png",
+      "logoHover": "assets/portfolio/logos/fluid-efficiency-color.png"
+    },
+    {
+      "name": "Biophilica",
+      "slug": "biophilica",
+      "industries": [
+        "Textiles",
+        "Advanced Materials"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 24,
+      "url": "https://www.biophilica.co.uk/",
+      "description": "Treekind™ is a plastic-free, compostable leather alternative made from green waste.",
+      "about": [
+        "Sourced from green waste, Treekind™ by Biophilica is plastic-free leather (free of PU, PVC and any other petrochemicals) making it recyclable as green waste and home compostable. It is also non-toxic and estimated carbon neutral.",
+        "Leather is one of the most environmentally harmful textiles with its carbon footprint, water usage and waste. Treekind™ offers a sustainable, circular alternative to leather and its synthetic competitors to support the transition to manufacturing and consumption that is local, carbon zero, and sustainable.",
+        "Rhapsody led the seed round in 2022."
+      ],
+      "logo": "assets/portfolio/logos/biophilica.png",
+      "logoHover": "assets/portfolio/logos/biophilica-color.png"
+    },
+    {
+      "name": "Adden Energy",
+      "slug": "adden-energy",
+      "industries": [
+        "Energy"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 25,
+      "url": "https://addenenergy.com/",
+      "description": "A stable, lithium-metal, solid-state battery from Harvard that charges faster and is safer.",
+      "about": [
+        "Originating from Professor Xin Li's lab at Harvard, Adden is developing a stable, lithium-metal, solid-state battery that charges much faster and is safer than current lithium-metal batteries."
+      ],
+      "logo": "assets/portfolio/logos/adden-energy.png",
+      "logoHover": "assets/portfolio/logos/adden-energy-color.png"
+    },
+    {
+      "name": "HyperDamping",
+      "slug": "hyperdamping",
+      "industries": [
+        "Advanced Materials"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 26,
+      "url": "https://www.hyperdamping.com/",
+      "description": "Lightweight, durable vibration and shock damping materials built from advanced mechanical design.",
+      "about": [
+        "Professor Ryan Harne had been working at the frontier of vibration and shock damping for 15 years when he suffered a traumatic brain injury from a fall that led to permanent hearing loss and nerve damage.",
+        "\"Waking up in the hospital, one of my first thoughts was that if I had landed on a floor damped with HyperDamping materials, this could have been prevented,\" Dr. Harne realized. HyperDamping was formed in short order.",
+        "The company uses innovative methods in mechanical design paired with advanced materials science to create lightweight, durable damping materials and solutions with effective and long-lasting performance."
+      ],
+      "logo": "assets/portfolio/logos/hyperdamping.png",
+      "logoHover": "assets/portfolio/logos/hyperdamping-color.png"
+    },
+    {
+      "name": "Chinova Bioworks",
+      "slug": "chinova-bioworks",
+      "industries": [
+        "Foodtech"
+      ],
+      "exited": false,
+      "featured": true,
+      "order": 27,
+      "url": "https://www.chinovabioworks.com/",
+      "description": "Natural, mushroom-based preservatives that protect food and beverages from spoilage.",
+      "about": [
+        "Chinova uses the power of mushrooms to protect food and beverage products from spoilage. Chinova's natural, clean-label, FDA approved formulation reduces the reliance on artificial ingredients and improves quality, freshness and shelf-life. Consumer food products using Chinova can be found in supermarkets across North America.",
+        "Rhapsody co-led a pre-seed round in 2018 with DSM. Other investors include SOSV and AgFunder."
+      ],
+      "logo": "assets/portfolio/logos/chinova-bioworks.png",
+      "logoHover": "assets/portfolio/logos/chinova-bioworks-color.png"
+    },
+    {
+      "name": "Magnolia Medical",
+      "slug": "magnolia-medical",
+      "industries": [
+        "Medtech"
+      ],
+      "exited": false,
+      "featured": false,
+      "order": 28,
+      "url": "https://magnolia-medical.com/",
+      "description": "Eliminating blood culture contamination with US hospitals to set a safer national benchmark.",
+      "about": [
+        "Zero false positives. Zero patients harmed.",
+        "Magnolia Medical is partnering with US hospitals and healthcare workers in their mission to eliminate the preventable error of blood culture contamination and together set a new, and safer, national benchmark for blood culture contamination."
+      ],
+      "logo": null,
+      "logoHover": null
+    },
+    {
+      "name": "Apeel Sciences",
+      "slug": "apeel-sciences",
+      "industries": [
+        "Agtech"
+      ],
+      "exited": true,
+      "featured": false,
+      "order": 29,
+      "url": "https://www.apeel.com/",
+      "description": "Plant-derived coatings that extend the shelf life of fresh produce and reduce food waste.",
+      "about": [
+        "Apeel Sciences makes plant-derived coatings that extend the shelf life of fresh produce and reduce food waste."
+      ],
+      "logo": "assets/portfolio/logos/apeel-sciences.png",
+      "logoHover": "assets/portfolio/logos/apeel-sciences-color.png"
+    },
+    {
+      "name": "Hazel Technologies",
+      "slug": "hazel-technologies",
+      "industries": [
+        "Agtech"
+      ],
+      "exited": true,
+      "featured": false,
+      "order": 30,
+      "url": "https://www.hazeltechnologies.com/",
+      "description": "Post-harvest freshness technology that extends the life of fruits, vegetables and flowers.",
+      "about": [
+        "Hazel Technologies develops post-harvest technology that slows ripening and extends the freshness of fruits, vegetables and flowers through the supply chain."
+      ],
+      "logo": "assets/portfolio/logos/hazel-technologies.png",
+      "logoHover": "assets/portfolio/logos/hazel-technologies-color.png"
+    },
+    {
+      "name": "LiquiGlide",
+      "slug": "liquiglide",
+      "industries": [
+        "Advanced Materials"
+      ],
+      "exited": true,
+      "featured": false,
+      "order": 31,
+      "url": "https://liquiglide.com/",
+      "description": "Permanently slippery coatings that let viscous products slide cleanly out of containers.",
+      "about": [
+        "LiquiGlide creates permanently wet, slippery coatings that let viscous products slide cleanly out of containers and equipment, cutting waste in consumer packaging and manufacturing."
+      ],
+      "logo": "assets/portfolio/logos/liquiglide.png",
+      "logoHover": "assets/portfolio/logos/liquiglide-color.png"
+    },
+    {
+      "name": "Safi-Tech",
+      "slug": "safi-tech",
+      "industries": [
+        "Advanced Materials"
+      ],
+      "exited": true,
+      "featured": false,
+      "order": 32,
+      "url": "http://www.safi-tech.com/",
+      "description": "Patented chemistry enabling low-temperature electronics manufacturing for miniaturized, flexible designs.",
+      "about": [
+        "SAFI-Tech's patented platform chemistry allows for low-temperature electronics manufacturing processes, enabling the next generation of miniaturized and flexible electronics design.",
+        "Professor Martin Thuo and Dr. Ian Tevis developed SAFI-Tech's breakthrough innovation at Iowa State University, the historical home of electronics material innovation."
+      ],
+      "logo": "assets/portfolio/logos/safi-tech.png",
+      "logoHover": "assets/portfolio/logos/safi-tech-color.png"
+    },
+    {
+      "name": "Verdafresh",
+      "slug": "verdafresh",
+      "industries": [
+        "Packaging",
+        "Foodtech"
+      ],
+      "exited": true,
+      "featured": false,
+      "order": 33,
+      "url": "https://verdafresh.com/",
+      "description": "Flexible packaging from natural, abundant materials that preserves freshness and supports a circular economy.",
+      "about": [
+        "Verdafresh uses natural and abundant materials to create state-of-the-art flexible packaging to preserve food freshness and enable the circular economy."
+      ],
+      "logo": "assets/portfolio/logos/verdafresh.png",
+      "logoHover": "assets/portfolio/logos/verdafresh-color.png"
+    }
+  ]
+}
