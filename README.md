@@ -14,12 +14,11 @@ Add new features the same way: `data/<feature>.json`, `js/<feature>.js`, `assets
 
 ## URLs
 
-| What | URL pattern | Cache |
-|---|---|---|
-| Data | `https://raw.githubusercontent.com/deeptechagency/rvp-webflow/main/data/<file>.json` | about 5 min |
-| JS, CSS, assets | `https://cdn.jsdelivr.net/gh/deeptechagency/rvp-webflow@main/<path>` | up to 12 h |
+Everything is read straight from this repo through raw.githubusercontent.com, so a commit is live on the site within about 5 minutes. No CDN cache to clear.
 
-To clear the jsDelivr cache right after a change, open `https://purge.jsdelivr.net/gh/deeptechagency/rvp-webflow@main/<path>` once.
+- Data: `https://raw.githubusercontent.com/deeptechagency/rvp-webflow/main/data/<file>.json`
+- Assets: `https://raw.githubusercontent.com/deeptechagency/rvp-webflow/main/assets/<path>`
+- Scripts are loaded by a small inline loader (below), since GitHub serves .js as plain text.
 
 ## Portfolio
 
@@ -32,7 +31,9 @@ Webflow page code. Head:
 Before `</body>`:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/deeptechagency/rvp-webflow@main/js/portfolio.js" defer></script>
+<script>
+(function(d){fetch('https://raw.githubusercontent.com/deeptechagency/rvp-webflow/main/js/portfolio.js',{cache:'no-cache'}).then(function(r){return r.text()}).then(function(t){var s=d.createElement('script');s.textContent=t;d.body.appendChild(s)})})(document);
+</script>
 ```
 
 Edit companies in `data/portfolio.json`:

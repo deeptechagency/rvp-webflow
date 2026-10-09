@@ -15,7 +15,7 @@
  *
  * Optional settings on the cms_list element:
  *   data-cms-source     URL of portfolio.json (defaults to the GitHub repo)
- *   data-cms-assets     base URL for logo paths (defaults to jsDelivr)
+ *   data-cms-assets     base URL for logo paths (defaults to the GitHub repo)
  *   data-cms-page-size  cards per infinite-load batch (default 9, "0" = all)
  *   data-cms-animate    "false" turns off the card fade-in on filter / load more
  *   data-cms-hover      "false" turns off the built-in logo hover swap
@@ -29,7 +29,7 @@
 
   var REPO = 'deeptechagency/rvp-webflow';
   var DEFAULT_SOURCE = 'https://raw.githubusercontent.com/' + REPO + '/main/data/portfolio.json';
-  var DEFAULT_ASSETS = 'https://cdn.jsdelivr.net/gh/' + REPO + '@main/';
+  var DEFAULT_ASSETS = 'https://raw.githubusercontent.com/' + REPO + '/main/';
   var SEL = function (name) { return '[data-cms-layout="' + name + '"]'; };
   var ALL = '__all';
   var EXITED = '__exited';
@@ -401,7 +401,7 @@
     });
   }
 
-  window.RVPPortfolio = { init: init, version: '1.0.3' };
+  window.RVPPortfolio = { init: init, version: '1.0.4' };
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
